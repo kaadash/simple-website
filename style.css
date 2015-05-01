@@ -1,0 +1,272 @@
+html, body {
+	height: 100%;
+	margin: 0px;
+	font-family: "roboto";
+}
+
+nav {
+	position: fixed;
+	height: 60px;
+	width: 100%;
+	border-bottom: 1px solid #868383;
+	/*box-shadow: 0px 0px 8px 2px #000000;*/
+	margin: 0px;
+	background-color: white;
+	z-index: 10;
+}
+ul {
+	position: relative;
+	list-style-type: none;
+	margin-right: 100px;
+	padding: 0px;
+}
+li {
+	position: relative;
+	float: right;
+	
+	font-weight: 900;
+	font-size: 17px;
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 2px;
+	cursor: pointer;
+}
+a:hover {
+	color: #574c4c;
+	border-bottom: 3px solid #730000;
+}
+a {
+	color: #868383;
+
+}
+#logo {
+	float: left;
+	height: 55px;
+	/*width: 43px;*/
+	margin-left: 50px;
+	margin-top: 3px;
+	cursor: pointer;
+}
+.content {
+	background-image: url(resources/creative.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	display: block;
+	/*z-index: -1;	*/
+}
+.content h1 {
+	padding-top: 180px;	
+	font-size: 41px;
+	font-weight: bold;
+	color: white;
+	margin-top: 0px;
+	/*margin-top: 200px;*/
+	margin-left: 80px;
+	display: none;
+}
+.content h2 {
+	
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	margin-left: 80px;
+	display: none;
+}
+.content p {
+	width: 400px;
+	
+	font-size: 15px;
+	color: white;
+	margin-left: 80px;
+	display: none;
+}
+.content button {
+	display: none;
+	margin-left: 120px;
+	border: 4px solid white;
+	border-radius: 48px;
+	
+	font-size: 15px;
+	font-weight: bold;
+	background-color: transparent;
+	color: white;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.how {
+	
+	text-align: center;
+	display: block;
+	width: 100%;
+	margin-top: 30px;
+	height: 1100px;
+}
+.titles {
+	display: none;
+	font-weight: bold;	
+}
+#crown {
+	height: 64px;
+	display: none;
+}
+.line {
+	display: none;
+	height: 2px;
+	width: 70%;
+	background-color: #939393;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.how h2:first-child {
+	font-weight: bold;
+	color: #532a2a;
+	display: none;
+}
+#lines {
+	display: none;
+}
+.vertical-line {
+	
+	width: 2px;
+	height: 170px;
+	left: 250px;
+	top: -50px;
+	background-color: #939393;
+	margin-right: auto;
+	margin-left: auto;
+}
+.circle, #img-idea, #img-book {
+
+	position: relative;
+	height: 128px;
+	width: 128px;
+	border-radius: 50%;
+	border: 2px solid #939393;
+	/*background-image: url("F:/na zajecia dla poczatkujacych/resources/idea.png");*/
+	background-size: cover;
+	right: 380px;
+
+}
+#img-idea {
+	background-image: url(resources/idea.png);
+	left: 0px;
+	border: none;
+}
+#img-book {
+	background-image: url(resources/book.png);
+	left: 0px;
+	border: none;
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/*.circle:hover {
+	border: 4px solid #730000;
+}*/
+.horizontal-line {
+	height: 2px;
+	width: 250px;
+	position: relative;
+	top: -64px;
+	right: 250px;
+	background-color: #939393;
+
+}
+.circle-right, #img-wallet, #img-rise {
+
+	position: relative;
+	height: 128px;
+	width: 128px;
+	border-radius: 50%;
+	border: 2px solid #939393;	
+	background-size: cover;
+	left: 250px;
+
+}
+#img-wallet {
+	background-image: url(resources/wallet.png);
+	left: 0px;
+	border: none;
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#img-rise {
+	background-image: url(resources/rise.png);
+	left: 0px;
+	border: none;
+}
+/*.circle:hover {
+	border: 4px solid #730000;
+}*/
+.horizontal-line-right {
+	height: 2px;
+	width: 250px;
+	position: relative;
+	top: -64px;	
+	background-color: #939393;
+}
+.section-title {
+	top: 100px;
+	color: #373636;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+.circle p, .circle-right p {
+	position: relative;
+	font-family: "Roboto";
+	font-size: 14px;
+	font-weight: 500;
+	color: #373636;
+	width: 300px;
+	right: 60%;
+}
+.titles-last {
+	font-weight: bold;
+	color: #532a2a;
+	margin-top: 100px;
+}
+/*.stats {
+	position: scroll;
+	width: 100%;
+	height: 100%;
+	background-image: url("F:/na zajecia dla poczatkujacych/resources/team.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+.bgnd {
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+/*    height: 54vh;
+    max-height: 1200px;
+    min-height: 200px;*/
+}
+.bgnd-1 {
+    background-image: url(resources/team.jpg);
+}
+
+.numbers {	
+	position: relative;
+	top: 50%;
+	text-align: center;
+}
+.numbers span {
+	display: none;
+	margin: 0px 5%;
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+}
+footer {
+	height: 100%;
+}
+
+
