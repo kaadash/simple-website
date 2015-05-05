@@ -40,12 +40,12 @@ var iteration = [];
 var isOver = [];
 var time = 7;
 var counter = 0;
-
+var timerValue = [];
 	
 		for (var i = 0; i < 4; i++) 
 		{
 			timer[i] = document.getElementById('timer'+i);
-			
+			timerValue[i] = timer[i].innerHTML;
 			iteration[i] = 0;
 			isOver[i] = 0;
 		};
@@ -62,7 +62,8 @@ var counter = 0;
 						for (var i = 0; i < 4; i++) 
 						{		
 							timer[i].innerHTML = iteration[i]+'+';
-							if((timer[i].innerHTML - iteration[i]) < 100)
+
+							if((timerValue[i] - iteration[i]) < 100)
 							{
 								iteration[i]++;		
 							}
@@ -70,9 +71,9 @@ var counter = 0;
 							{
 								iteration[i]+=100;
 							}
-							if(iteration[i] >= timer[i].innerHTML)
+							if(iteration[i] >= timerValue[i])
 							{
-								iteration[i] = timer[i].innerHTML;
+								iteration[i] = timerValue[i];
 								isOver[i] = 1;		
 							}
 						};
