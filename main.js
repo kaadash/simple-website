@@ -13,11 +13,11 @@ $(document).ready(function(){
 				$('button').fadeIn(speedOfAnimation);			
 		}, 1700);
 
-					
 			var oTop = $('#crown').offset().top - window.innerHeight;
 			$(window).scroll(function(){
 				var pTop = $('body').scrollTop();
 				if(pTop > oTop)
+					
 				{
 					setTimeout(function(){
 						$('#crown').fadeIn(1000);
@@ -34,7 +34,7 @@ $(document).ready(function(){
 
 				}
 			});				
-		
+			//git test 
 var timer = [];
 var iteration = [];
 var isOver = [];
